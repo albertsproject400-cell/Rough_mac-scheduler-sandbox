@@ -13,7 +13,7 @@ int main() {
         {2, 1, 9.5}   
     };
     
-    int deadline = 10;
+    int deadline = 5;
     int winner_id = -1;
     double highest_priority = -1.0;
 
