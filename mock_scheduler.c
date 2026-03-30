@@ -22,7 +22,7 @@ int main() {
         
         if (users[i].is_URLLC == 1) {
             if (users[i].head_of_line_delay >= deadline) {
-                priority = 999999.0; 
+                priority = 100; 
             } else {
                 priority = exp(users[i].head_of_line_delay / (deadline - users[i].head_of_line_delay));
             }
