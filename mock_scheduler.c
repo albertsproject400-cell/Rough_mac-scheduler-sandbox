@@ -33,7 +33,9 @@ int main() {
             winner_id = users[i].id;
         }
     }
-
+     
     printf("WINNER: Resource Block assigned to User %d\n", winner_id);
+    // Simulating our new branch work
+    printf("STRETCH GOAL: Applying frequency-selective channel metrics...\n");
     return 0;
 }
